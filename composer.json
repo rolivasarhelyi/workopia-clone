@@ -1,0 +1,16 @@
+{
+  "name": "rolivasarhelyi/workopia-clone",
+  "description": "Job listing application",
+  "authors": [
+    {
+      "name": "Roland Vasarhelyi",
+      "email": "roli.vasarhelyi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
