@@ -110,8 +110,6 @@ class UserController {
             'state' => $state
         ]);
 
-
-
         redirect('/');
     }
 }
