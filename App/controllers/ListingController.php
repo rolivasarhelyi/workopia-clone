@@ -145,6 +145,9 @@ class ListingController {
 
         $this->db->query('DELETE FROM listings where id = :id', $params);
 
+        // Set flash message
+        $_SESSION['success_message'] = 'Listing deleted successfully';
+
         redirect('/listings');
     }
 }
